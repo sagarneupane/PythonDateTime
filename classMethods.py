@@ -18,5 +18,7 @@ print("Week Number of the year Monday as Day First ",datenow.strftime("%W"))
 print("Day number of the year ",datenow.strftime("%j"))
 print("Time Zone",datenow.strftime("%Z"))
 print("AM or PM in 12 hrs format::",datenow.strftime("%p"))
+print("Local Version Of date",datenow.strftime("%x"))
+print("Local Version Of time:",datenow.strftime("%X"))
 
 # print(datenow.tzinfo)
