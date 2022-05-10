@@ -12,3 +12,6 @@ class Employee():
         print("Your address is ",self.address)
         
 emp = Employee(10, "Sagar Neupane", "Kohalpur-12,Banke,Nepal")
+emp.display()
+emp1 = Employee(11, "Samir Neupane", "Kohalpur-12,Khajur Nepal")
+emp1.display()
