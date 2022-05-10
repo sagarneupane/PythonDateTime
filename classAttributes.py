@@ -3,7 +3,10 @@
 
 from datetime import datetime
 
-
+# The today() method of the datetime class gives current time but doesnot take the time zone attribute
+# We have another method now() also which gives current time but takes time zone attributes as well if timezone is not passed into that method it 
+# -- will acts same as tody() --
+# let's go on with today in this section
 datetoday = datetime.today()
 
 print("The year today is",datetoday.year)
